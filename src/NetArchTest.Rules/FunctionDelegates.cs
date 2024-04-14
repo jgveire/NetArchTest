@@ -323,7 +323,6 @@ namespace NetArchTest.Rules
                 return input.Where(t => rule.MeetsRule(t) == condition);
             };
 
-
         /// <summary>
         /// Function for finding enumerations.
         /// </summary>
